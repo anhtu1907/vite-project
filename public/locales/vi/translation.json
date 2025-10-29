@@ -1,0 +1,43 @@
+{
+    "header": {
+        "cart": "Giỏ hàng",
+        "searchBy": "Tìm kiếm theo...",
+        "login": "Đăng nhập"
+    },
+    "footer": {
+        "about": "About",
+        "aboutUs": "About Us",
+        "ourBranches": "Our Branches",
+        "changeLog": "ChangeLog",
+        "quickLinks": "Quick Links",
+        "faqs": "FAQs",
+        "recipes": "Recipes",
+        "contactUs": "Contact Us",
+        "helpSupport": "Help Support",
+        "termsOfService": "Terms of Service",
+        "privacyPolicy": "Privacy Policy",
+        "security": "Security",
+        "company": "Company",
+        "blog": "Blog",
+        "contact": "Contact",
+        "social": "Social",
+        "facebook": "Facebook",
+        "instagram": "Instagram",
+        "twitter": "Twitter",
+        "copyRight": "All rights reserved © {{year}} {{company}}"
+    },
+    "pageLoader": {
+        "loading": "Đang tải trang..."
+    },
+    "pageError":{
+        "title": "Đang có lỗi xảy ra",
+        "description": "Xin lỗi bạn vì sự bất tiện này. Vui lòng tải lại trang hoặc quay lại sau.",
+        "reload": "Tải lại trang"
+    },
+    "notFound":{
+        "title": "Không tìm thấy trang",
+        "description": "Trang bạn đang tìm kiếm không tồn tại. Vui lòng kiểm tra lại hoặc bấm nút bên dưới để quay lại trang trước đó",
+        "goBack": "Quay lại"
+    }
+    
+}
