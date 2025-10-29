@@ -1,6 +1,8 @@
 import type { Preview } from '@storybook/react-vite'
+
 import "../src/app/styles/index.scss";
 import { ThemeDecorator,RouterDecorator,LanguageDetector } from './../src/shared/config/storyBook';
+
 const preview: Preview = {
   globalTypes: {
     theme: {

@@ -1,8 +1,13 @@
 import { useTranslation } from 'react-i18next';
-import styles from './NotFoundPage.module.scss';
-import PageErrorIcon from '@/shared/assets/icons/PageError.svg?react';
-import { Button } from '@/shared';
 import { useNavigate } from 'react-router';
+
+import PageErrorIcon from '@/shared/assets/icons/PageError.svg?react';
+
+import styles from './NotFoundPage.module.scss';
+
+import { Button } from '@/shared';
+
+
 export const NotFoundPage = () => {
     const { t } = useTranslation();
     const navigate = useNavigate();

@@ -6,9 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint:ts":"tsc",
+    "lint:ts": "tsc",
     "lint": "eslint .",
-    "lint:scss":"stylelint **/*.scss",
+    "lint:fix": "eslint . --fix",
+    "lint:scss": "stylelint **/*.scss",
     "preview": "vite preview",
     "test:unit": "vitest",
     "test:regression": "npx chromatic",
@@ -29,6 +30,7 @@
   "devDependencies": {
     "@chromatic-com/cypress": "^0.11.7",
     "@chromatic-com/storybook": "^4.1.1",
+    "@conarti/eslint-plugin-feature-sliced": "^1.0.5",
     "@eslint/js": "^9.36.0",
     "@storybook/addon-a11y": "^9.1.15",
     "@storybook/addon-docs": "^9.1.15",
@@ -45,6 +47,7 @@
     "@vitest/coverage-v8": "4.0.4",
     "chromatic": "^13.3.2",
     "eslint": "^9.36.0",
+    "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.22",
     "eslint-plugin-storybook": "^9.1.15",
