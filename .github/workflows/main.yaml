@@ -26,7 +26,7 @@ jobs:
       - name: TypeScript
         run: npm run lint:ts
 
-      - name: eslint
+      - name: Eslint
         run: npm run lint
       
       - name: Stylelint
