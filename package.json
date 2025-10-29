@@ -9,8 +9,10 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "test:unit": "vitest",
+    "test:regression": "npx chromatic",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic "
   },
   "dependencies": {
     "@testing-library/jest-dom": "^6.9.1",
